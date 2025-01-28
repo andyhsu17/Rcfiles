@@ -12,6 +12,11 @@
                                      "when": "canNavigateForward" },
 { "key": "alt+h",            "command": "workbench.action.navigateBack",
                                      "when": "canNavigateBack" },
+{ "key": "cmd+l",          "command": "workbench.action.navigateForward",
+                                     "when": "canNavigateForward" },
+{ "key": "cmd+h",            "command": "workbench.action.navigateBack",
+                                     "when": "canNavigateBack" },
+
 {
     "key": "ctrl+space",
     "command": "workbench.action.quickSwitchWindow"
@@ -19,6 +24,17 @@
 {
     "key": "ctrl+shift+s",
     "command": "workbench.action.files.saveFiles"
+},
+{
+    "key": "cmd+shift+s",
+    "command": "workbench.action.files.saveFiles"
+},
+{
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen"
+},
+{
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen"
 }
 ]
-
